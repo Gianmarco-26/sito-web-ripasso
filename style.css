@@ -1,18 +1,18 @@
 .navbar {
   background-color: #f84b50;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* Stile oggetti navbar */
 .logo {
-  text-decoration: none;
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 0.5rem;
   width: fit-content;
-
-  padding: 0.5rem 0.5rem;
-  border-radius: 0.2rem;
 }
 
 .logo:hover {
@@ -24,6 +24,16 @@
 }
 
 .logo-txt {
-  color: black;
   font-size: 1.2rem;
+}
+
+.navbar-link {
+  padding: 0.5rem 1rem;
+  border-radius: 0.2rem;
+  color: black;
+  text-decoration: none;
+}
+
+.navbar-link:hover {
+  background-color: #f8ca1d;
 }
