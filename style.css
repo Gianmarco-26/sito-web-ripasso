@@ -1,0 +1,29 @@
+.navbar {
+  background-color: #f84b50;
+}
+
+/* Stile oggetti navbar */
+.logo {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  width: fit-content;
+
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.2rem;
+}
+
+.logo:hover {
+  background-color: #f8ca1d;
+}
+
+.logo-img {
+  height: 2rem;
+}
+
+.logo-txt {
+  color: black;
+  font-size: 1.2rem;
+}
